@@ -1,13 +1,15 @@
+// Navbar.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Home from "../pages/home/Home"; 
 
 function Navbar() {
   return (
     <div className="h-screen w-full bg-white relative flex overflow-hidden">
       <aside className="h-full w-16 flex flex-col space-y-10 items-center justify-center relative bg-gray-800 text-white">
         <Link
-          to="/home"
+          to="/"
           className="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white hover:duration-300 hover:ease-linear focus:bg-white"
         >
           <i className="material-icons">home</i>
@@ -42,7 +44,9 @@ function Navbar() {
           </div>
         </header>
 
-        <main className="max-w-full h-full flex relative overflow-y-hidden"></main>
+        <main className="max-w-full h-full flex relative overflow-y-hidden">
+          <Home /> {/* Agregamos el componente Home aquí */}
+        </main>
       </div>
     </div>
   );
