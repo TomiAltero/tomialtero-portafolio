@@ -39,6 +39,7 @@
   font-weight: 300;
   margin-bottom: 3rem;
   position: relative;
+  margin-left: 10px;
 }
 
 .bio::before,

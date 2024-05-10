@@ -7,7 +7,7 @@ import style from "../styles/AboutPage.module.css";
 const AboutPage = ({ languages }) => {
   return (
     <>
-      <h3>Sobre mí:</h3>
+      <h3 className={style.h3lang}>Sobre mí:</h3>
       <AboutText />
 
       <h3 className={style.h3lang}>Lenguajes con los que he desarrollado:</h3>

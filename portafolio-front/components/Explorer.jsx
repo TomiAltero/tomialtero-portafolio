@@ -47,7 +47,7 @@ const Explorer = () => {
             className={styles.chevron}
             style={portfolioOpen ? { transform: 'rotate(90deg)' } : {}}
           />
-          Portfolio
+          MI_PORTAFOLIO
         </label>
         <div
           className={styles.files}
