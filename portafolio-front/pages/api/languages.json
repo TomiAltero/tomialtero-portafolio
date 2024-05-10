@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Python",
+    "description": "Lenguaje de programación interpretado de alto nivel.",
+    "image": "/images/peaje.jpg",
+    "tags": ["python", "django", "flask"]
+  },
+  {
+    "id": 1,
+    "name": "Python",
+    "description": "Lenguaje de programación interpretado de alto nivel.",
+    "image": "/images/peaje.jpg",
+    "tags": ["python", "django", "flask"]
+  },
+  {
+    "id": 1,
+    "name": "Python",
+    "description": "Lenguaje de programación interpretado de alto nivel.",
+    "image": "/images/peaje.jpg",
+    "tags": ["python", "django", "flask"]
+  },
+  {
+    "id": 1,
+    "name": "Python",
+    "description": "Lenguaje de programación interpretado de alto nivel.",
+    "image": "/images/peaje.jpg",
+    "tags": ["python", "django", "flask"]
+  }
+]
