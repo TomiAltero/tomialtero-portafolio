@@ -1,0 +1,16 @@
+.image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin-right: 12%;
+    margin-top: 10px;
+    border: solid;
+    border-color: white ;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
