@@ -2,21 +2,27 @@
   {
     "id": 1,
     "name": "Python",
-    "image": "/images/python-4.svg"
+    "experience": "4 Años",
+    "description": "He trabajado con Python en proyectos de análisis de datos, desarrollo de aplicaciones web y automatización de tareas. Tengo experiencia en el uso de librerías como Pandas, Numpy, Matplotlib, Seaborn, Flask, Django, entre otras."
+
+
   },
   {
     "id": 2,
     "name": "JAVA",
-    "image": "/images/java-4.svg"
+    "experience": "2 Años",
+    "description": "He trabajado con Java en proyectos de desarrollo de interfaces graficas. Tengo experiencia en el uso de JavaSwing aplicando integracion con MySQL."
   },
   {
     "id": 3,
     "name": "JavaScript",
-    "image": "/images/logo-javascript.svg"
+    "experience": "2 Años",
+    "description": "He trabajado con JavaScript en proyectos de desarrollo de aplicaciones web. Tengo experiencia en el uso de React y Node.js. Realizando aplicaciones web con React y servidores con Node.js"
   },
   {
     "id": 4,
     "name": "PHP",
-    "image": "/images/php-1.svg"
+    "experience": "2 Años",
+    "description": "He trabajado con PHP en proyectos de desarrollo de aplicaciones web. Tengo experiencia en el uso de Laravel, Blade, Eloquent, entre otras tecnologías."
   }
 ]

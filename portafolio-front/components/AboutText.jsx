@@ -7,7 +7,7 @@ function AboutText() {
         backgroundColor: "#1F2428",
         padding: "20px",
         borderRadius: "10px",
-        margin: 20,
+        margin: 30,
       }}
     >
       <p style={{ fontSize: "18px", color: "white" }}>
