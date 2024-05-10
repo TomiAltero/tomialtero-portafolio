@@ -10,13 +10,6 @@ const LanguageCard = ({ language }) => {
       <div className={styles.content}>
         <h3>{language.name}</h3>
         <p>{language.description}</p>
-        <div className={styles.tags}>
-          {language.tags.map((tag) => (
-            <span key={tag} className={styles.tag}>
-              {tag}
-            </span>
-          ))}
-        </div>
       </div>
     </div>
   );

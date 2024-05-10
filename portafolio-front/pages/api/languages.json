@@ -2,29 +2,21 @@
   {
     "id": 1,
     "name": "Python",
-    "description": "Lenguaje de programación interpretado de alto nivel.",
-    "image": "/images/peaje.jpg",
-    "tags": ["python", "django", "flask"]
+    "image": "/images/python-4.svg"
   },
   {
-    "id": 1,
-    "name": "Python",
-    "description": "Lenguaje de programación interpretado de alto nivel.",
-    "image": "/images/peaje.jpg",
-    "tags": ["python", "django", "flask"]
+    "id": 2,
+    "name": "JAVA",
+    "image": "/images/java-4.svg"
   },
   {
-    "id": 1,
-    "name": "Python",
-    "description": "Lenguaje de programación interpretado de alto nivel.",
-    "image": "/images/peaje.jpg",
-    "tags": ["python", "django", "flask"]
+    "id": 3,
+    "name": "JavaScript",
+    "image": "/images/logo-javascript.svg"
   },
   {
-    "id": 1,
-    "name": "Python",
-    "description": "Lenguaje de programación interpretado de alto nivel.",
-    "image": "/images/peaje.jpg",
-    "tags": ["python", "django", "flask"]
+    "id": 4,
+    "name": "PHP",
+    "image": "/images/php-1.svg"
   }
 ]
