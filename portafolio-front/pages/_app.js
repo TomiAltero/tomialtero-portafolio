@@ -20,7 +20,7 @@ class MyApp extends React.Component {
     const { Component, pageProps } = this.props;
     return (
       <Layout>
-        <Head title={`Nitin Ranganath | ${pageProps.title}`} />
+        <Head title={`Tomi Altero | ${pageProps.title}`} />
         <Component {...pageProps} />
       </Layout>
     );
