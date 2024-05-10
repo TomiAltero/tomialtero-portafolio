@@ -11,37 +11,31 @@ function AboutText() {
       }}
     >
       <p style={{ fontSize: "18px", color: "white" }}>
-        Soy un desarrollador Back-End que comenzé hace 3 años y me encanta
-        aprender cosas nuevas. Me apasiona la programación y la tecnología, y
-        disfruto compartiendo mis conocimientos con los demás.
+        ¡Hola! Soy Tomi Altero, un estudiante de programación de 18 años con
+        muchas ganas de aprender y crecer en el mundo del desarrollo de
+        software. Actualmente, estoy cursando en una escuela técnica
+        especializada en programación, donde he adquirido conocimientos sólidos
+        en diversos lenguajes de programación y tecnologías. Soy de Argentina 🇦🇷
+        y me enorgullece representar la pasión y el talento de mi país a nivel
+        mundial.
+        <b>
+          <u>
+            Estoy para ofrecer mis servicios y contribuir con mi pasión y
+            habilidades a tus proyectos
+          </u>
+        </b>
+        . Ya sea creando sitios web funcionales o desarrollando aplicaciones
+        robustas y escalables, estoy listo para enfrentar cualquier desafío.
+        <b>
+          <u>
+            <i>
+              Me comprometo a trabajar diligentemente, comunicarme de manera
+              efectiva y entregar resultados de alta calidad a tiempo
+            </i>
+          </u>
+        </b>
+        . Tomas Altero
       </p>
-      <br></br>
-      <p>Estoy familiarizado con:</p>
-      <ul style={{ listStyleType: "none", paddingInlineStart: 0 }}>
-        <li style={{ color: "white" }}>
-          🔥 Lenguajes de programación como: JAVA, Python, JavaScript y PHP.
-        </li>
-        <li style={{ color: "white" }}>
-          🌐 Desarrollo de aplicaciones web con HTML, CSS y JavaScript.
-        </li>
-        <li style={{ color: "white" }}>
-          📚 Frameworks como Bootstrap, React.js, TailwindCSS, Django y Laravel.
-        </li>
-        <li style={{ color: "white" }}>🛠️ Herramientas como Git y GitHub.</li>
-      </ul>
-
-      <br></br>
-
-      <p>Actualmente estoy:</p>
-      <ul style={{ listStyleType: "none", paddingInlineStart: 0 }}>
-        <li style={{ color: "white" }}>🌱 Aprendiendo Node.js y MongoDB.</li>
-        <li style={{ color: "white" }}>
-          👯 Buscando colaborar en proyectos de desarrollo web.
-        </li>
-        <li style={{ color: "white" }}>
-          💬 Dispuesto a ayudar en cualquier pregunta que tengas.
-        </li>
-      </ul>
     </div>
   );
 }

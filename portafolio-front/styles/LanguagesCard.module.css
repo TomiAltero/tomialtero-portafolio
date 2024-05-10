@@ -60,3 +60,20 @@
 .underline:hover {
   background-size: 100% 88%;
 }
+
+
+.Python {
+  color: #3776ab;
+}
+
+.Java {
+  color: #dd473d;
+}
+
+.JavaScript {
+  color: #f0db4f;
+}
+
+.PHP {
+  color: #8892bf;
+}
