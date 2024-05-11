@@ -17,7 +17,6 @@ const AboutPage = ({ languages }) => {
         ))}
       </div>
 
-      <h3 className={style.h3lang}>Frameworks con los que he desarrollado:</h3>
     </>
   );
 };
