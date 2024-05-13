@@ -4,7 +4,13 @@
     "name": "Peaje",
     "image": "/images/peaje.png",
     "description": "Sistema de gestión y control de peajes para la provincia de Córdoba, Argentina.",
-    "tags": ["python", "django", "mysql", "javascript", "bootstrap"],
+    "tags": [
+      "python",
+      "django",
+      "mysql",
+      "javascript",
+      "bootstrap"
+    ],
     "source_code": "https://github.com/facugirardi/SistemaPeaje",
     "demo": "#"
   },
@@ -13,7 +19,13 @@
     "name": "Guitar Page",
     "image": "/images/guitar-page.png",
     "description": "Un e-commerce relacionado con la venta de guitarras eléctricas.",
-    "tags": ["python", "django", "mysql", "javascript", "react"],
+    "tags": [
+      "python",
+      "django",
+      "mysql",
+      "javascript",
+      "react"
+    ],
     "source_code": "https://github.com/TomiAltero/guitar-page",
     "demo": "#"
   },
@@ -22,7 +34,13 @@
     "name": "A.L.T Gestor Empresarial",
     "image": "/images/alt-gestor-empresarial.png",
     "description": "Sistema de gestión empresarial para pequeñas y medianas empresas.",
-    "tags": ["html", "css", "javascript", "php", "mysql"],
+    "tags": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "mysql"
+    ],
     "source_code": "https://github.com/TomiAltero/WEB-Gestion-empresarial-",
     "demo": "#"
   }

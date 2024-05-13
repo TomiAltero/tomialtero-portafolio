@@ -1,4 +1,4 @@
-import data from './languages.json'; 
+import data from './languages.json';
 
 export const getLanguages = () => {
   return data;
