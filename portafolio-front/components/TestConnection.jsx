@@ -12,9 +12,14 @@ const ShowPortafolio = () => {
     try {
       const response = await axios.get("http://localhost:8000/api/portafolio");
       setPortafolio(response.data);
+      console.log("Datos del portafolio:", response.data);
     } catch (error) {
       console.error("Error fetching products:", error);
     }
   };
+
+  return null;
 }
+
 export default ShowPortafolio;
+

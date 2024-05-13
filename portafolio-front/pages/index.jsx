@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import styles from '../styles/HomePage.module.css';
 import ImageHomePage from '../components/ImageHomePage';
+import ShowPortafolio from '../components/TestConnection';
+
 
 export default function HomePage() {
   return (
@@ -20,6 +22,7 @@ export default function HomePage() {
             </Link>
           </div>
           <ImageHomePage />
+          <ShowPortafolio />
         </div>
       </div>
     </>
