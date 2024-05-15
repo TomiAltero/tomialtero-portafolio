@@ -85,7 +85,12 @@ const ContactPage = () => {
             )}
           </div>
           <button type="submit">Enviar</button>
-          {successMessage && <p className={styles.success}>{successMessage}</p>}
+          {errors && errors.general && (
+            <p className={styles.error}>{errors.general}</p>
+          )}
+          {successMessage && (
+            <p className={styles.success}>{successMessage}</p>
+          )}
         </form>
       </div>
     </div>
