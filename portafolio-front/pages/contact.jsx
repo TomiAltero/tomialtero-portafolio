@@ -1,30 +1,35 @@
 import { useState } from 'react';
 import ContactCode from '../components/ContactCode';
 import styles from '../styles/ContactPage.module.css';
+import axios from 'axios';
 
 const ContactPage = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errors, setErrors] = useState(null);
 
   const submitForm = async (e) => {
     e.preventDefault();
-    console.log(process.env.NEXT_PUBLIC_API_URL);
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
-      method: 'POST',
-      body: JSON.stringify({ name, email, subject, message }),
-    });
-    if (res.ok) {
-      alert('Your response has been received!');
-      setName('');
-      setEmail('');
-      setSubject('');
-      setMessage('');
-    } else {
-      alert('There was an error. Please try again in a while.');
+    try {
+      const res = await axios.post('http://localhost:8000/api/portafolio', { 'nombre': name, 'email': email, 'mensaje': message })
+      if (res.status === 201) {
+        setSuccessMessage('¡Tu mensaje se ha enviado correctamente!');
+        setName('');
+        setEmail('');
+        setMessage('');
+        setErrors(null);
+      }
+    } catch (error) {
+      console.error('Error al enviar el formulario:', error);
+      if (error.response && error.response.data) {
+        setErrors(error.response.data.errors);
+      } else {
+        setErrors({ general: 'Hubo un error al enviar el formulario. Por favor, intenta de nuevo más tarde.' });
+      }
     }
-  };
+  }
 
   return (
     <div className={styles.container}>
@@ -46,6 +51,9 @@ const ContactPage = () => {
                 onChange={(e) => setName(e.target.value)}
                 required
               />
+              {errors && errors.name && (
+                <p className={styles.error}>{errors.name[0]}</p>
+              )}
             </div>
             <div>
               <label htmlFor="email">Email</label>
@@ -57,6 +65,9 @@ const ContactPage = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 required
               />
+              {errors && errors.email && (
+                <p className={styles.error}>{errors.email[0]}</p>
+              )}
             </div>
           </div>
           <div>
@@ -69,18 +80,17 @@ const ContactPage = () => {
               onChange={(e) => setMessage(e.target.value)}
               required
             ></textarea>
+            {errors && errors.message && (
+              <p className={styles.error}>{errors.message[0]}</p>
+            )}
           </div>
           <button type="submit">Enviar</button>
+          {successMessage && <p className={styles.success}>{successMessage}</p>}
         </form>
       </div>
     </div>
   );
 };
 
-export async function getStaticProps() {
-  return {
-    props: { title: 'Contact' },
-  };
-}
-
 export default ContactPage;
+

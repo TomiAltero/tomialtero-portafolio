@@ -24,5 +24,6 @@ Route::controller(PortafolioController::class)->group(
     function() {
 
         Route::get('/portafolio', 'index');
+        Route::post('/portafolio', 'store');    
     }
 );
