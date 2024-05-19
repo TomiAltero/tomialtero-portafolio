@@ -29,6 +29,6 @@ Puedes contactarme a través de los siguientes medios:
 
 - Email: tomasaltero@gmail.com
 - LinkedIn: [Tomi Altero](https://www.linkedin.com/in/tomialtero/)
-- Sitio web: [www.tomialtero.com](https://www.tomialtero.com)
+- Sitio web: [tomialtero.me](https://www.tomialtero.com)
 
 ¡Gracias por visitar mi portafolio!
