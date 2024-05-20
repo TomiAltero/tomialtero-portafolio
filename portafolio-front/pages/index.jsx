@@ -14,6 +14,7 @@ export default function HomePage() {
           <div className={styles.content}>
             <h1 className={styles.name}>Tomi Altero</h1>
             <h6 className={styles.bio}>Desarrollador Back-End</h6>
+            <p className={styles.paragraphindex}>Hola! Soy un desarrollador de aplicaciones web independiente en Argentina 🇦🇷 </p>
             <Link href="/projects">
               <button className={styles.button}>Ver Proyectos</button>
             </Link>

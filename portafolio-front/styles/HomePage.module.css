@@ -82,6 +82,7 @@
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
   margin-right: 1.5rem;
+  margin-left: 2%;
   color: #eee;
   font-weight: 600;
   border: none;
@@ -105,6 +106,16 @@
 .illustration {
   height: 500px;
   width: 460px;
+}
+
+
+.paragraphindex {
+  margin-bottom: 3.5rem;
+  margin-left: 1%;
+  color: #eee;
+  background-color: #1F2428;
+  padding: 1rem;
+  border-radius: 12px
 }
 
 /* 4K Screens */
@@ -217,4 +228,5 @@
     height: 50vh;
     z-index: 1;
   }
+
 }

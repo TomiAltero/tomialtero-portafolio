@@ -19,7 +19,7 @@ class PortafolioController extends Controller
         $validatedData = $request->validate([
             'nombre' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'mensaje' => 'required|string|max:255', // Solo necesitas especificar 'required' una vez
+            'mensaje' => 'required|string|max:255',
         ]);
 
         // Crear una nueva entrada en la base de datos
