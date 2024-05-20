@@ -2,8 +2,9 @@
 
 Este es mi portafolio personal donde muestro mis proyectos y habilidades como desarrollador.
 
-## Características
+![Imagen portafolio](./portafolio-front/public/images/imagen-portafolio-2.png)
 
+## Características
 - Lista de proyectos destacados
 - Información sobre mi experiencia y habilidades
 - Formas de contacto
