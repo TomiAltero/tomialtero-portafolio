@@ -6,7 +6,7 @@ Este es mi portafolio personal donde muestro mis proyectos y habilidades como de
 
 ## Características
 - Lista de proyectos destacados
-- Información sobre mi experiencia y habilidades
+- Información sobre mis habilidades
 - Formas de contacto
 
 ## Tecnologías utilizadas
